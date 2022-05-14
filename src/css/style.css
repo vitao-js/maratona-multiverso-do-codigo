@@ -252,3 +252,20 @@ footer > div > .reservado{
     text-align: center;
     padding-top: 15px;
 }
+
+.importante {
+    font-weight: bold;
+}
+
+#modulo_descricao {
+    padding: 30px;
+}
+
+#modulo_descricao ul {
+    margin-top: 25px;
+}
+
+#modulo_descricao ul li  {
+    list-style: disc;
+    margin-left: 25px;
+}
