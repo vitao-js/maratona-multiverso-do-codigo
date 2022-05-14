@@ -7,6 +7,8 @@
 
 ## O Projeto
 
+Link do Figma: [Maratona Multiverso do Código](https://www.figma.com/file/7QHOxURZL0cUtUcEnJ2pdh/Projeto_Kenzie-no-Multiverso-do-C%C3%B3digo-(open)?node-id=0%3A1)
+
 ### Estrutura de arquivos 
 
 - README.md
