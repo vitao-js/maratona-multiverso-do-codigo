@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Kenzie - Maratona</title>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <section>
-            <img src="./src/img/kenzieLogo.png" alt="logo Kenzie">
-            <img src="./src/img/lupa.png" alt="lupa">
+            <div class="cabecalho_logo">
+                <img src="./src/img/kenzieLogo.png" alt="logo Kenzie">
+                <h1>KENZIE</h1>
+            </div>
+            <img id="pesquisa" src="./src/img/lupa.png" alt="lupa">
         </section>
-        <ul>
+        <ul class="cabecalho_menu">
             <li><a>PÁGINA PRINCIPAL</a></li>
             <li><a>TRAILER</a></li>
             <li><a>ÚLTIMAS MARATONAS</a></li>
@@ -21,8 +29,11 @@
         </ul>
     </header>
     <main>
-        <section>
+        <section id="backgroundPage">
             <img src="./src/img/HERO.png" alt="Maratona da Kenzie">
+        </section>
+        
+        <section>
             <div>
                 <h2>TRAILER OFICIAL</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3iqsQ9wvAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

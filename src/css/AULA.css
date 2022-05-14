@@ -1,0 +1,30 @@
+/*
+
+CSS - Cascading StyleSheet
+
+TAG - Elemento HTML
+CLASSE - Classe de estilos
+ID -Identificadores
+
+
+SELETOR{
+    PROPRIEDADE: VALOR;
+    PROPRIEDADE: VALOR;
+    PROPRIEDADE: VALOR;
+    PROPRIEDADE: VALOR;
+}
+
+*/
+
+
+main{
+    background-color: blue;
+}
+
+.container{
+    color:red;
+}
+
+#cabecalho{
+    text-transform: uppercase;
+}

@@ -1,0 +1,60 @@
+/*
+#202020 -- Black Header
+#151515 -- black maratonas
+#000000 -- Black
+#2D2D2D -- Black text
+
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+    background-color: #202020;
+}
+
+.cabecalho > section{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho_logo{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 36px;
+    padding: 10px 0;
+    border-bottom: solid 1px #E5E5E5;
+    font-weight: bold;
+}
+
+#pesquisa{
+    width: 30px;
+    height: 30px;
+    padding: 20px 30px;
+    border-bottom: solid 1px #E5E5E5;
+    border-left: solid 1px #E5E5E5;
+}
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px 0;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#backgroundPage{
+    width: 100%;
+    height: 500px;
+}
+
+#backgroundPage > img{
+    max-width: 100%;
+}
