@@ -50,6 +50,13 @@ body{
     font-weight: bold;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #backgroundPage{
     width: 100%;
     height: 500px;
@@ -57,4 +64,56 @@ body{
 
 #backgroundPage > img{
     max-width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+}
+
+.trailer > div > h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2D2D2D;
+}
+
+.trailer > div > iframe{
+    width: 100%;
+    height: 400px;
+    margin: 30px 0;
+}
+
+.maratonas{
+    width: 100%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.maratonas > .container > h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.maratonas > .container > div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maratonas > .container > div > img{
+    width: 220px;
+    height: 220px;
+}
+
+.geral{
+    background-color: white;
+}
+
+.geral > h2{
+    color: #2D2D2D;
 }
