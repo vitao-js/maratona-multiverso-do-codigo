@@ -4,6 +4,7 @@
  * Boolean => booleano
  *          0 => Falso / False / Desligado
  *          1 => Verdadeiro / True / Ligado
+ * Array => Lista => [10,20,30,40, "Victor", "Churros"]
  */
 /**
  * Variável => LET

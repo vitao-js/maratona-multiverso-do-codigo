@@ -9,24 +9,25 @@ function pegarCardInformacoes() {
     meuHeader.innerText = "HARD SKILLS";
     meuHeader.classList.add("importante");
 
+    const listaHardSkills = [
+        "JavaScript (ES6)",
+        "Programação Orientada a Objetos",
+        "Programação Funcional",
+        "Metodologias Ágeis",
+        "Qualidade",
+        "TDD com Jest, BDD com Cucumber",
+        "Noções de UX"
+    ];
+
     const ul = document.createElement("ul");
-    const item1 = document.createElement("li");
-    const item2 = document.createElement("li");
-    const item3 = document.createElement("li");
-    const item4 = document.createElement("li");
-    const item5 = document.createElement("li");
-    const item6 = document.createElement("li");
-    const item7 = document.createElement("li");
 
-    item1.innerText = "JavaScript (ES6)"
-    item2.innerText = "Programação Orientada a Objetos"
-    item3.innerText = "Programação Funcional"
-    item4.innerText = "Metodologias Ágeis"
-    item5.innerText = "Qualidade"
-    item6.innerText = "TDD com Jest, BDD com Cucumber"
-    item7.innerText = "Noções de UX"
+    for (let contador = 0; contador < listaHardSkills.length; contador = contador + 1) {
+        const li = document.createElement("li");
+        li.innerText = listaHardSkills[contador];
 
-    ul.append(item1, item2, item3, item4, item5, item6, item7);
+        ul.append(li)
+    }
+
     cardInformacoes.append(meuHeader, ul);
 }
 
