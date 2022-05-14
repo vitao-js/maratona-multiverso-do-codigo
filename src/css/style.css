@@ -91,6 +91,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-top: 70px;
+    padding-bottom: 200px;
 }
 
 .maratonas > .container > h2{
@@ -99,21 +100,155 @@ main{
     color: white;
 }
 
-.maratonas > .container > div{
+.maratonas > .container > div.cartazes{
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.maratonas > .container > div > img{
+.maratonas > .container > div.cartazes > img{
     width: 220px;
     height: 220px;
 }
 
 .geral{
     background-color: white;
+    display: flex;
+    padding: 60px;
+    gap: 50px;
+    box-sizing: border-box;
+    margin-top: -150px;
 }
 
-.geral > h2{
+.geral > div > h2{
+    font-size: 30px;
+    font-weight: bold;
     color: #2D2D2D;
+}
+
+.geral > div > p{
+    line-height: 20px;
+    margin-top: 15px;
+    color: #151515;
+}
+
+.geral > div > h3{
+    font-size: 20px;
+    color: #767676;
+    margin: 35px 0 15px 0;
+}
+
+.geral > div > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.geral > div > p > b{
+    font-weight: bold;
+}
+
+.geral > div > img{
+    height: 420px
+}
+
+.modulos{
+    width: 100%;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.modulos > .container > h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 50px 0 20px 0;
+}
+
+.modulos > .container > .seletor_botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modulos > .container > .seletor_botoes > button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url("../img/botao_modulo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 110px;
+    height: 40px;
+}
+
+#modulo_descricao{
+    margin: 40px 0;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+footer > div > .footer_logo{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    color: white;
+}
+
+footer > div > .footer_logo > img{
+    width: 80px;
+}
+
+footer > div > .footer_logo > p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer > div > .footer_dados{
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+    gap: 100px;
+}
+
+footer > div > .footer_dados > .redes > h3,
+footer > div > .footer_dados > .contato > h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer > div > .footer_dados > .redes > ul,
+footer > div > .footer_dados > .contato > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #202020;
+}
+
+footer > div > .footer_dados > .contato > ul > li{
+    width: 150px;
+}
+
+footer > div > .footer_dados > .contato > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > div > .reservado{
+    color: white;
+    border-top: solid 1px #2D2D2D;
+    text-align: center;
+    padding-top: 15px;
 }
